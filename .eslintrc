@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "curly": ["error", "multi-line"],
+    "semi": ["error", "always"], // https://eslint.org/docs/rules/semi
+    "space-before-function-paren": ["error", "never"]
+  }
+}

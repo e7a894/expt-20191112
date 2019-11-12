@@ -1,0 +1,42 @@
+{
+  "name": "expt-20191112",
+  "version": "0.1.0",
+  "description": "Nuxt で Stylus を使ってみる",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "dev-debug": "node --inspect-brk=9229 node_modules/@nuxt/typescript-runtime/bin/nuxt-ts",
+    "build": "nuxt-ts build",
+    "analyze": "nuxt-ts build -a",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start --port 8181",
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
+    "storybook": "start-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e7a894/expt-20191112.git"
+  },
+  "author": "e7a894 <e7a894@outlook.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e7a894/expt-20191112/issues"
+  },
+  "homepage": "https://github.com/e7a894/expt-20191112#readme",
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.2.4",
+    "nuxt": "^2.10.2",
+    "nuxt-property-decorator": "^2.5.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.3.4",
+    "@nuxtjs/eslint-config-typescript": "^0.1.3",
+    "@storybook/addon-knobs": "^5.2.6",
+    "@storybook/vue": "^5.2.6",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.19.1"
+  }
+}
