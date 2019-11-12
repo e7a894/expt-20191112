@@ -11,5 +11,6 @@
     { "language": "typescript", "autoFix": true },
     { "language": "vue", "autoFix": true },
     { "language": "vue-html", "autoFix": true }
-  ]
+  ],
+  "stylelint.enable": false
 }
